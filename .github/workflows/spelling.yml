@@ -23,3 +23,6 @@ jobs:
     - uses: check-spelling/check-spelling@prerelease
       with:
         experimental_apply_changes_via_bot: 1
+        extra_dictionaries:
+          cspell:css/css.txt
+          cspell:html/html.txt
